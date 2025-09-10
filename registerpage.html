@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0" />
+    <title>register page</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="register-container">
+        <h2>Create Account</h2>
+        <form id="registerForm">
+            <input type="text" id="username" placeholder="Username" required />
+            <input type="email" id="email" placeholder="Email" required />
+            <input type="password" id="password" placeholder="Password" required />
+            <input type="password" id="confirmPassword" placeholder="Confirmpassword" required />
+            <p class="error" id="errorMsg"></p>
+            <button type="submit">register</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>    
+</html>
